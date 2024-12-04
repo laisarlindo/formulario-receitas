@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="formu.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Receitas</title>
+</head>
+<body>
+    <form action="enviado.html" method="post"></form>
+        <label for = "nome da receita"> Nome da receita:</label>
+        <input type="text" name="nome da receita" id="nome da receita"
+        required="required" autofocus><br>
+
+        <label for = "Modo de preparo"> Modo de preparo:</label>
+        <input type="text" name="Modo de preparo" id="Modo de preparo"
+        required="required" autofocus><br>
+
+        <label for = "Ingretientes">Ingretientes:</label>
+        <input type="text" name="Ingretientes" id="Ingretientes"
+        required="required" autofocus><br>
+
+        <label for = " Seu nome"> Seu nome:</label>
+        <input type="text" name="Seu nome" id="Seu nome"
+        required="required" autofocus><br>
+        
+        <label for="email">Email:</label>
+        <input for="email" name="email" id="email" required
+        placeholder="Exemplo: email@email.com"><br>
+        
+        <label for="categoria">Categoria:</label>
+        <input type="radio" neme="categoria" id="categoria"
+        required><br>
+        
+        <label for="Tempo de preparo">Tempo de preparo:</label>
+        <input type="time" name="Tempo de preparo" id="Tempo de preparo" required><br>
+        
+        <label>Difilcudade:</label><br>
+
+        <input class="emlinha" type="checkbox" name="Fácil" id="Fácil"> 
+        <label class="emlinha" for="Fácil">Fácil</label><br>
+
+        <input class="emlinha" type="checkbox" name="Moderada" id="Moderada">
+        <label class="emlinha" for="Moderada">Moderada</label><br>
+
+        <input class="emlinha" type="checkbox" name="Difícl" id="Difícl">
+        <label class="emlinha" for="Difícl">Difícl</label><br>
+
+        
+        
+        <label for="foto">Foto:</label>
+        <input type="file" name="foto" id="foto" required><br>
+        
+        <label>Categoria:</label>
+        <input class="emlinha" type="radio" name="Categoria" id="aperitivo">
+        <label class="emlinha" for="aperitivo">aperitivo</label>
+        
+        <input class="emlinha" type="radio" name="Categoria" id="entrada">
+        <label class="emlinha" for="entrada">entrada</label>
+        
+        <input class="emlinha" type="radio" name="Categoria" id="prato principal">
+        <label class="emlinha" for="prato principal">prato principal</label> <br><br>
+
+        <input class="emlinha" type="radio" name="Categoria" id="sobremesa">
+        <label class="emlinha" for="sobremesa">sobremesa</label> <br><br>
+
+        <label>Informações adicionais:</label>
+        <textarea name="informacoes" rows="8" cols="25" maxlength="100" required placeholder=" Escreva aqui informações adicionais que julgar importante."></textarea><br>
+        <input type="submit" name="enviar" id="enviar">
+
+        <p>
+            <input type="submit" value="enviar(simulação)" id="enviar">
+        </p>
+    
+    </form>
+</body>
+</html>
+
