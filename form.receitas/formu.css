@@ -11,7 +11,7 @@ label, input, select, textarea{
  form{
     width: 550px;
     margin: auto;
-    background: #eee;
+    background: rgb(171, 110, 229);
     padding: 40px;
     border-radius: 10px;
  }
@@ -34,13 +34,13 @@ label, input, select, textarea{
 }
 input:focus, select:focus, textarea:focus{
    outline: none;
-   border: solid 1px #ffb300;
+   border: solid 1px #ffb;
 }
  #enviar{
    width: 100%;
-   border: 2px solid #ffb300;
-   background-color: #fff;
-   color: #ffb300;
+   border: 2px solid blueviolet;
+   background-color:aqua;
+   color: blue;
    font-weight: bold;
    cursor: pointer;
    padding: 15px;
@@ -50,3 +50,6 @@ input:focus, select:focus, textarea:focus{
   color: #fff;
 transition:all linear 0.3;
  }
+ input[type='file']{
+   border: solid 1px rgba(121, 28, 28, 0.642);
+}
